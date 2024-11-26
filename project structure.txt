@@ -1,0 +1,20 @@
+rbac-auth-system/
+├── src/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── userController.js
+│   ├── middleware/
+│   │   ├── authenticate.js
+│   │   ├── authorize.js
+│   ├── models/
+│   │   ├── User.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── userRoutes.js
+│   ├── utils/
+│   │   ├── db.js
+│   └── app.js
+├── .env
+├── package.json
+├── README.md
+└── server.js
