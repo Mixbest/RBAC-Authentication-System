@@ -10,7 +10,9 @@ Middleware:
 Authentication: Verifies user identity using JSON Web Tokens (JWT).
 Authorization: Restricts access to routes based on user roles.
 Secure Password Storage: Passwords are hashed using bcrypt before being stored.
+
 Project Structure
+
 rbac-auth-system/
 ├── src/
 │   ├── controllers/       # Route controller functions
