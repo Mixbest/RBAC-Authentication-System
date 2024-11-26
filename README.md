@@ -11,28 +11,7 @@ Authentication: Verifies user identity using JSON Web Tokens (JWT).
 Authorization: Restricts access to routes based on user roles.
 Secure Password Storage: Passwords are hashed using bcrypt before being stored.
 
-Project Structure
 
-rbac-auth-system/
-├── src/
-│   ├── controllers/       # Route controller functions
-│   │   ├── authController.js
-│   │   ├── userController.js
-│   ├── middleware/        # Custom middleware for authentication and authorization
-│   │   ├── authenticate.js
-│   │   ├── authorize.js
-│   ├── models/            # Database models
-│   │   ├── User.js
-│   ├── routes/            # Route definitions
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   ├── utils/             # Utility functions (e.g., DB connection)
-│   │   ├── db.js
-│   └── app.js             # Main app configuration
-├── .env                   # Environment variables
-├── package.json           # Project dependencies and scripts
-├── README.md              # Project documentation
-└── server.js              # Entry point for the server
 Tech Stack
 Backend: Node.js with Express
 Database: MongoDB with Mongoose
